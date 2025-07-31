@@ -1,0 +1,44 @@
+.main-3 {
+  color: #2c3e50;
+  margin-top: 80px;
+  /* padding: 200px; */
+}
+.main-3 h1{
+    font-weight: 700;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.layerr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 128, 0, 0.6); /* green overlay */
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.image-container:hover .layerr {
+  opacity: 1;
+}
+
+.plus-icon {
+  font-size: 3rem;
+  color: white;
+}

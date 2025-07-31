@@ -1,0 +1,10 @@
+.main-2{
+   padding: 100px;
+    background-color: #1abc9c;
+}
+@media (min-width: 768px) {
+.main-2{
+     padding: 250px;
+}
+
+}
